@@ -77,6 +77,95 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .container--title-section-block h3:after{
+    content:"";
+    background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-arrow___12af2199c2c7e5e9b990bbea144571cd.png) no-repeat center center scroll transparent;
+    width:20px;
+    height: 20px;
+    position:absolute;
+    right: 10px;
+    top: 12px;
+    background-size: 16px;
+  }
+  .container--title-section-block h3:hover{
+    background: #6aa837;
+    color:#fff;
+  }
+  
+  .container--title-section-block h3:hover::after{
+    transform: rotate(180deg);
+    filter: invert(1);
+  }
+  
+  .container--title-section-block h3:hover + p, .container--title-section-block h3:hover + ul, .container--title-section-block h3:hover + p + ul{opacity: 1;height: auto;font-size:.8rem;border:1px solid #dedede;border-radius:5px;padding:10px;margin-bottom: 10px;}
+  
+  .container--titleMarcas .paragraph{
+    font-size: 23px;
+    border: 1px solid #00abb5;
+    text-transform: uppercase;
+    color: #00abb5;
+    background: #fff;
+    font-weight: normal;
+    position: relative;
+    font-weight: 700;
+    padding: 0 20px;
+    width: auto;
+    display: inline-flex;  
+    margin: 20px 0;
+    padding:5px 20px;  
+  }
+  
+  
+  @media only screen and (min-width: 640px) {
+    .container--footer-endereco, .container--footer-telefone, .container--footer-whatsapp, .container--footer-horario{font-size:1rem;}
+    .container--question .strong {
+      font-size: 40px;
+      line-height: 3rem;
+    }
+  
+    .container--about {
+      max-width: 85%;
+    }
+  
+    .container--title {
+      color: #03034E;
+      font-size: 40px;
+      font-weight: 700;
+      max-width: 60%;
+    }
+  
+    .container--title .paragraph {
+      line-height: 1.3em;
+    }
+    .container--infoPageContent > div {width:100%;}
+    .container--infoPageContent .heading-level-6{position: relative;margin:10px 0;}
+    .container--infoPageContent .heading-level-6:before{
+      border-top:1px solid #ccc;
+      content:"";
+      width:100%;
+      height:1px;   
+      display: inline-flex; 
+      position:absolute;
+      top:11px;
+      left:0;
+    }
+    .container--infoPageContent .heading-level-6 .strong{
+      color:#8a8a8a;
+      background:#fff;
+      padding-right:10px; 
+      position: relative;
+    }  
+    .container--footer .paragraph{
+      font-size: 1rem;
+    }
+  
+    .container--deals .paragraph{
+      font-size: 18px;
+    }  
+  
+  }
+  
 }
 .paragraph {
   color: #3b5e07;

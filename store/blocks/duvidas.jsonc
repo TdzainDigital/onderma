@@ -1,0 +1,173 @@
+{
+    "store.custom#questions": {
+      "blocks": [
+        "flex-layout.row#content-title-intitucional",
+        "flex-layout.row#content-info-questions-01",
+        "flex-layout.row#section-block-01",       
+        "flex-layout.row#content-info-questions-02",
+        "flex-layout.row#section-block-02",
+        "flex-layout.row#content-info-questions-03",
+        "flex-layout.row#section-block-03",
+        "flex-layout.row#content-info-questions-04",
+        "flex-layout.row#section-block-04",
+        "flex-layout.row#content-info-questions-05",
+        "flex-layout.row#section-block-05"
+      ]
+    },
+    "flex-layout.row#content-title-intitucional":{
+        "children":[
+            "rich-text#title-intitucional"
+        ]
+    },
+    "rich-text#title-intitucional":{
+        "props":{
+            "text":"[PERGUNTAS-FREQUENTES]", // Perguntas frequentes
+            "blockClass":"title-default"
+        }
+    },
+    // Question 01
+    "flex-layout.row#content-info-questions-01":{
+        "children":[
+            "rich-text#title-section-01" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-01":{
+        "props":{
+            "text":"[TROCA E DEVOLUÇÃO]",
+            "blockClass":"title-section"
+        }
+    },
+    "flex-layout.row#section-block-01":{
+        "children":[
+            "rich-text#section-block-01-title"
+        ],
+        "props":{
+            "blockClass":"block-title"
+        }
+    },
+    "rich-text#section-block-01-title":{
+        "props":{
+            "text":"[Formas de pagamento aceitas]",
+            "blockClass": "title-section-block"
+        }
+    },
+    // Question 02
+    "flex-layout.row#content-info-questions-02":{
+        "children":[
+            "rich-text#title-section-02" // PAGAMENTO
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-02":{
+        "props":{
+            "text":"[PAGAMENTO]",
+            "blockClass":"title-section"
+        }
+    },
+    "flex-layout.row#section-block-02":{
+        "children":[
+            "rich-text#section-block-02-title"
+        ],
+        "props":{
+            "blockClass":"block-title"
+        }
+    },
+    "rich-text#section-block-02-title":{
+        "props":{
+            "text":"[Formas de pagamento aceitas]",
+            "blockClass": "title-section-block"
+        }
+    },    
+    // Question 03
+    "flex-layout.row#content-info-questions-03":{
+        "children":[
+            "rich-text#title-section-03" // ENTREGA
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-03":{
+        "props":{
+            "text":"[ENTREGA]",
+            "blockClass":"title-section"
+        }
+    },
+    "flex-layout.row#section-block-03":{
+        "children":[
+            "rich-text#section-block-03-title"
+        ],
+        "props":{
+            "blockClass":"block-title"
+        }
+    },
+    "rich-text#section-block-03-title":{
+        "props":{
+            "text":"[ENTREGA]",
+            "blockClass": "title-section-block"
+        }
+    },  
+    // Question 04
+    "flex-layout.row#content-info-questions-04":{
+        "children":[
+            "rich-text#title-section-04" // OUTROS ASSUNTOS
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-04":{
+        "props":{
+            "text":"[PAGAMENTO]",
+            "blockClass":"title-section"
+        }
+    },
+    "flex-layout.row#section-block-04":{
+        "children":[
+            "rich-text#section-block-04-title"
+        ],
+        "props":{
+            "blockClass":"block-title"
+        }
+    },
+    "rich-text#section-block-04-title":{
+        "props":{
+            "text":"[Outros assuntos]",
+            "blockClass": "title-section-block"
+        }
+    },  
+    // Question 05
+    "flex-layout.row#content-info-questions-05":{
+        "children":[
+            "rich-text#title-section-05" // DÚVIDAS SOBRE MEDICAMENTOS
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-05":{
+        "props":{
+            "text":"[Dúvidas]",
+            "blockClass":"title-section"
+        }
+    },
+    "flex-layout.row#section-block-05":{
+        "children":[
+            "rich-text#section-block-05-title"
+        ],
+        "props":{
+            "blockClass":"block-title"
+        }
+    },
+    "rich-text#section-block-05-title":{
+        "props":{
+            "text":"[Dúvidas]",
+            "blockClass": "title-section-block"
+        }
+    }
+}    
