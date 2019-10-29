@@ -122,97 +122,13 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "SEGURANÇA",
         "text": "SEGURANÇA"
       }
     }
   },
-
-  "vtex.menu@2.x:menu#footer-bags": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bags",
-      "menu-item#dois",
-      "menu-item#tres",
-      "menu-item#quatro",
-      "menu-item#cinco"
-    ]
-  },
-
-  "menu-item#bags": {
-    "props": {
-      "id": "menu-item-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": true,
-        "tagTitle": "ATENDIMENTO",
-        "text": "ATENDIMENTO"
-      }
-    }
-  },
-  "menu-item#dois": {
-    "props": {
-      "id": "menu-item-dois",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": true,
-        "tagTitle": "TELEVENDAS: (31) 4062-7062 / 3378-8115",
-        "text": "TELEVENDAS: (31) 4062-7062 / 3378-8115"
-      }
-    }
-  },"menu-item#tres": {
-    "props": {
-      "id": "menu-item-dois",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": true,
-        "tagTitle": "WHATSAPP: (31) 98773 2790",
-        "text": "WHATSAPP: (31) 98773 2790"
-      }
-    }
-  },"menu-item#quatro": {
-    "props": {
-      "id": "menu-item-dois",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": true,
-        "tagTitle": "E-MAIL: contato@onderma.com.br",
-        "text": "E-MAIL: contato@onderma.com.br"
-      }
-    }
-  },"menu-item#cinco": {
-    "props": {
-      "id": "menu-item-dois",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": true,
-        "tagTitle": "HORÁRIO: Seg. à Sexta 08h00 às 17h30",
-        "text": "HORÁRIO: Seg. à Sexta 08h00 às 17h30"
-      }
-    }
-  },
-
-
-
 
   "vtex.menu@2.x:menu#institucionaldois": {
     "props": {
@@ -245,7 +161,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Segurança",
         "text": "Segurança"
@@ -319,7 +235,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Segurança",
         "text": "Segurança"
@@ -335,7 +251,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Trocas e devoluções",
         "text": "Trocas e devoluções"
@@ -351,7 +267,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/como-utilizar-nossos-produtos",
         "noFollow": false,
         "tagTitle": "Como Utilizar Nossos Produtos",
         "text": "Como Utilizar Nossos Produtos"
@@ -367,7 +283,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Fale Conosco",
         "text": "Fale Conosco"
