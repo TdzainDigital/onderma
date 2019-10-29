@@ -1,0 +1,147 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "logo#footer",
+      "vtex.menu@2.x:menu#institucional",
+      "vtex.menu@2.x:menu#institucionaldois",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "flex-layout.col#atendimento"
+      
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "title": "CONECTE-SE CONOSCO",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "social-networks",
+      "rich-text#formas",
+      "rich-text#payment"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "logo#footer": {
+    "props": {
+      "title": "Onderma",
+      "href": "/",
+      "url": "https://onderma.vteximg.com.br/arquivos/logo.png",
+      "width": "150"
+    }
+  },
+  "rich-text#formas": {
+    "props":{
+      "text": "FORMAS DE PAGAMENTO:",
+      "blockClass": "title-payment"
+    }
+  },
+  "rich-text#payment": {
+    "props":{
+      "text": "![Payment](https://onderma.vteximg.com.br/arquivos/payment.png)"
+    }
+  },
+
+
+
+
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "flex-layout.col#atendimento": {
+    "children": [
+      "rich-text#atendimento",
+      "rich-text#televendas",
+      "rich-text#footerwpp",
+      "rich-text#email",
+      "footer-spacer",
+      "rich-text#horario"
+    ],
+    "props": {
+    
+    }
+  },
+  "rich-text#atendimento":{
+    "props":{
+     "text": "ATENDIMENTO" 
+    }
+  },
+  "rich-text#televendas":{
+    "props":{
+      "text": "**TELEVENDAS:** (31) 4062-7062 / 3378-8115" 
+     }
+  },
+  "rich-text#footerwpp":{
+    "props":{
+      "text": "**WHATSAPP:** (31) 98773 2790" 
+     }
+  },
+  "rich-text#email":{
+    "props":{
+      "text": "**E-MAIL:** contato@onderma.com.br" 
+     }
+  },
+  "rich-text#horario":{
+    "props":{
+      "text": "**HORÁRIO:** Seg. à Sexta 08h00 às 17h30" 
+     }
+  }
+
+  
+
+
+}

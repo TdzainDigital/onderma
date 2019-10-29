@@ -1,0 +1,153 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+     
+      "header-row#3-desktop",
+      "header-row#4-desktop",
+      "header-row#5-desktop"
+    ]
+  },
+
+  "header-row#3-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "header-spacer",
+      "vtex.menu@2.x:menu#institutional"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "inverted": "true"
+    }
+  },
+  "header-row#4-desktop": {
+    "children": [
+      "logo#desktop",
+      "header-spacer",
+      "header-spacer",
+      "search-bar",
+      "locale-switcher",
+      "rich-text#wpp",
+      "rich-text#img",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+  "rich-text#wpp": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "WhatsApp <br> (31) 98773-2790",
+      "font": "t-heading-7"
+    }
+  },
+  "rich-text#img": {
+    "props": {
+      "text": "![WhatApp](https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/whatsapp-256.png)",
+      "blockClass":"ico-wpp"
+    }
+  },
+  "search-bar":{
+    "props":{
+      "placeholder" : "BUSCAR"
+    }
+  },
+  "header-row#5-desktop": {
+    "children": [
+      "category-menu"
+    ],
+    "props": {
+      "inverted": true,
+      "sticky": true
+    }
+  },
+  "category-menu": {
+    "props": {
+      "showPromotionCategory": false,
+      "showGiftCategory": false,
+      "showAllDepartments": false,
+      "showSubcategories": false,
+      "menuDisposition": "center",
+      "departments": []
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Onderma",
+      "href": "/",
+      "url": "https://onderma.vteximg.com.br/arquivos/logo.png",
+      "width": "200"
+    }
+  },
+
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Ir para o CheckOut",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray"
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "category-menu"
+    ]
+  },
+ 
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://onderma.vteximg.com.br/arquivos/logo.png",
+      "width": "70"
+    }
+  },
+  "rich-text#top": {
+    "props": {
+      "text": "WhatsApp"
+    }
+  }
+
+}

@@ -1,0 +1,8 @@
+.container {
+    background-color: #67ac44;
+    height: 30px;
+}
+.container span, .container a {
+    text-transform: uppercase;
+    font-size: 10px;
+}

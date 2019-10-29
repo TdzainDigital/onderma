@@ -1,0 +1,161 @@
+{
+  "store.product": {
+    "children": [
+      "image#home",
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "shelf.relatedProducts",
+      "product-reviews",
+      "product-questions-and-answers",
+      "rich-text",
+      "newsletter"
+    ]
+  },
+  "image#home": {
+    "props": {
+      "src": "https://onderma.vteximg.com.br/arquivos/TarjaOnderma201810OK.jpg"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": [
+      "flex-layout.col#space", 
+      "flex-layout.col#product-image", 
+      "flex-layout.col#right-col"
+    ]
+  },
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "40%",
+      "rowGap": 0
+    },
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-name",
+      "product-rating-summary",
+      "product-price#product-details",
+      "product-separator",
+      "flex-layout.row#buy-button",
+      "availability-subscriber",
+      "shipping-simulator",
+      "share#default"
+    ]
+  },
+ 
+  "product-description": {
+    "props": {
+      "collapseContent": true
+    }
+  },
+  
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": [
+      "flex-layout.col#button",
+      "flex-layout.col#desc"
+    ]
+  },
+  "flex-layout.col#button":{
+    "children": [
+      "product-quantity",
+      "product-identifier.product",
+      "buy-button"
+    ]
+  },
+  "flex-layout.col#desc": {
+    "children": [
+      "rich-text#duvida",
+      "rich-text#duvida2",
+      "rich-text#duvidatel"
+    ]
+  },
+  "rich-text#duvida": {
+    "props": {
+      "text": "**Possui alguma dúvida?**"
+    }
+  },
+  "rich-text#duvida2": {
+    "props": {
+      "text": "Ligue agora ou utilize nosso atendimento online. Fale com nosso time de especialistas."
+    }
+  },
+  "rich-text#duvidatel": {
+    "props": {
+      "text": "### (31) 4062-7062",
+      "blockClass": "tel-duvidas"
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+  "flex-layout.col#space": {
+    "props": {
+      "width": "15%"
+    },
+    "children": [
+
+    ]
+  },
+  "newsletter":{
+    "props":{
+      "confirmationText": "true",
+      "label" :"CADASTRE-SE E RECEBA EM SEU E-MAIL, NOVIDADES, PROMOÇÕES E OFERTAS DA LOJA"
+    }
+  },
+  "rich-text": {
+    "props": {
+      "textPosition": "CENTER",
+      "text": "NEWSLETTER",
+      "font": "t-heading-5",
+      "blockClass": "tt-newsletter"
+    }
+  }
+
+
+}

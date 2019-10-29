@@ -1,0 +1,129 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      "image#home",
+      "rich-text#titulo",
+      "shelf#home",
+      "flex-layout.row#images",
+      "image#midia",
+      "rich-text",
+      "newsletter"
+    ]
+  },
+
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://onderma.vteximg.com.br/arquivos/3_banner_hairfibers.jpg",
+          "mobileImage": "https://onderma.vteximg.com.br/arquivos/3_banner_hairfibers.jpg"
+        },
+        {
+          "image": "https://onderma.vteximg.com.br/arquivos/BannerSite_HairmaxOK.jpg",
+          "mobileImage": "https://onderma.vteximg.com.br/arquivos/BannerSite_HairmaxOK.jpg"
+        }
+      ],
+      "height": 720,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  "rich-text#titulo": {
+    "props": {
+      "text": "PRODUTOS EM DESTAQUE",
+      "blockClass": "title-shelfhome"
+    }
+  },
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 2,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Mais Vendidos"
+      }
+    }
+  },
+
+  "product-summary#home": {
+    "props": {
+      "isOneClickBuy": false,
+      "showBadge": true,
+      "badgeText": "OFF",
+      "buyButtonText": "Add to cart",
+      "displayBuyButton": "displayButtonAlways",
+      "showCollections": false,
+      "showListPrice": true,
+      "labelSellingPrice": "To",
+      "labelListPrice": "From",
+      "showLabels": true,
+      "showInstallments": true,
+      "showSavings": true,
+      "name": {
+        "showBrandName": true,
+        "showSku": true,
+        "showProductReference": true
+      }
+    }
+  },
+  "image#home": {
+    "props": {
+      "src": "https://onderma.vteximg.com.br/arquivos/TarjaOnderma201810OK.jpg"
+    }
+  },
+  "flex-layout.row#images": {
+    "children": [
+      "flex-layout.col#images1",
+      "flex-layout.col#images2"
+    ]
+  },
+
+  "flex-layout.col#images1": {
+    "children": [
+      "image#mask"
+    ]
+  },
+  "flex-layout.col#images2": {
+    "children": [
+      "image#lasercom"
+    ]
+  },
+  "image#mask": {
+    "props": {
+      "src": "https://onderma.vteximg.com.br/arquivos/BannerVitrineOnderma_Iphoton.jpg"
+    }
+  },
+  "image#lasercom": {
+    "props": {
+      "src": "https://onderma.vteximg.com.br/arquivos/BannerVitrineOnderma_Lasercomb.jpg"
+    }
+  },
+  "image#midia": {
+    "props": {
+      "src": "https://onderma.vteximg.com.br/arquivos/banner_na_midia.jpg",
+      "blockClass":"banner-midia"
+    }
+  },
+  "newsletter":{
+    "props":{
+      "confirmationText": "true",
+      "label" :"CADASTRE-SE E RECEBA EM SEU E-MAIL, NOVIDADES, PROMOÇÕES E OFERTAS DA LOJA"
+    }
+  },
+  "rich-text": {
+    "props": {
+      "textPosition": "CENTER",
+      "text": "NEWSLETTER",
+      "font": "t-heading-5",
+      "blockClass": "tt-newsletter"
+    }
+  }
+
+}

@@ -1,0 +1,130 @@
+.notificationBarContainer {
+  background-color: #E6F1E6;
+  color: #03034E;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.searchBarContainer {
+  max-width: 40%;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #E6F1E6;
+  padding: 0px;
+}
+
+.newsletter {
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup input {
+  background-color: transparent;
+  color: #67ac44ff;
+  border: 1px solid;
+  padding-left: 0px;
+}
+
+.inputGroup input::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup button {
+  background-color: transparent;
+  color: #67ac44ff;
+  border: 1px solid;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 640px) {
+  .label {
+    font-size: 12px;
+    color: #67ac44;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+  .logoImage {
+    padding: 50px 0px;
+  }
+  .container > ul {
+    height: 50px;
+    margin-top: -10px;
+  }
+  .searchBarContainer input {
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 6px 1px rgb(219, 219, 219);
+  }
+  .vtex-input__prefix {
+    border-radius: 40px;
+  }
+  .searchBarIcon {
+    position: absolute;
+    margin-left: -40px;
+  }
+  .image {
+    width: 80%!important;
+  }
+  .carouselThumbBorder {
+    border: 1px solid #307420!important;
+  }
+  .productDescriptionText {
+    color: #307420;
+  }
+}
+
+/* CSS NOVO */
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 50px;
+  border: none;
+}
+.imageElement {
+  width: 100%;
+}
+.sellingPrice {
+  color: #307420;
+}
+.productBrand {
+  color: #307420;
+}

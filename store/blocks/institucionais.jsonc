@@ -1,0 +1,17 @@
+{
+"store.custom#institucional": {
+    "blocks": [
+      "flex-layout.row#institucional1"
+    ]
+  },
+  "flex-layout.row#institucional1": {
+      "children": [
+        "rich-text#institucional"    
+      ]
+  },
+  "rich-text#institucional":{
+      "props": {
+          "text": "teste"
+      }
+  }
+}

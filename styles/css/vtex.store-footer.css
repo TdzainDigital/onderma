@@ -1,0 +1,23 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+.footerLayout {
+  background-color: #efecee;
+}
+.socialNetworksTitle {
+  color: #8cbe42;
+  font-weight: bolder;
+  float: right;
+}
+.socialNetworksContainer {
+  float: right;
+}
+
