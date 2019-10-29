@@ -6,7 +6,7 @@
     "children": [
       "menu-item#institucional",
       "menu-item#empresa",
-      "menu-item#politicaprivacidade",
+      "menu-item#politica",
       "menu-item#pagamentosentregas",
       "menu-item#namidia",
       "menu-item#duvidas"
@@ -42,7 +42,7 @@
       }
     }
   },
-  "menu-item#politicaprivacidade": {
+  "menu-item#politica": {
     "props": {
       "id": "menu-item-politica-privacidade",
       "type": "custom",
