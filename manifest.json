@@ -37,7 +37,8 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.product-customizer": "2.x",
-    "vtex.category-menu": "2.x"
+    "vtex.category-menu": "2.x",
+    "vtex.tab-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

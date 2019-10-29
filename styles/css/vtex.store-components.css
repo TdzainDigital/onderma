@@ -111,6 +111,9 @@
   .productDescriptionText {
     color: #307420;
   }
+  .specificationsTablePropertyHeading, .specificationsTableSpecificationHeading  {
+    display: none;  
+  }
 }
 
 /* CSS NOVO */

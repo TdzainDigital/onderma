@@ -7,6 +7,7 @@
       "shelf#home",
       "flex-layout.row#images",
       "image#midia",
+      "tab-layout#home",
       "rich-text",
       "newsletter"
     ]
@@ -123,6 +124,75 @@
       "text": "NEWSLETTER",
       "font": "t-heading-5",
       "blockClass": "tt-newsletter"
+    }
+  },
+  
+
+  
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#tab1",
+      "tab-list.item#tab2",
+      "tab-list.item#tab3"
+      ]
+  },
+  "tab-list.item#tab1": {
+    "props": {
+      "tabId": "tab1",
+      "label": "MAQUIAGEM CAPILAR",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tab2": {
+    "props": {
+      "tabId": "tab2",
+      "label": "CALVICE"
+    }
+  },
+  "tab-list.item#tab3": {
+    "props": {
+      "tabId": "tab3",
+      "label": "LINHA MÉDICA"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#tab1",
+      "tab-content.item#tab2",
+      "tab-content.item#tab3"
+    ]
+  },
+  "tab-content.item#tab1": {
+    "children": [
+      "shelf#home"
+    ],
+    "props": {
+      "tabId": "tab1"
+    }
+  },
+  "tab-content.item#tab2": {
+    "children": [
+      "shelf#home"
+    ],
+    "props": {
+      "tabId": "tab2"
+    }
+  },
+  "tab-content.item#tab3": {
+    "children": [
+      "shelf#home"
+    ],
+    "props": {
+      "tabId": "tab3"
     }
   }
 

@@ -7,6 +7,7 @@
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers",
+      "flex-layout.row#descricao",
       "rich-text",
       "newsletter"
     ]
@@ -154,6 +155,68 @@
       "text": "NEWSLETTER",
       "font": "t-heading-5",
       "blockClass": "tt-newsletter"
+    }
+  },
+  "flex-layout.row#descricao" :{
+    "children": [
+      "flex-layout.col#descricao"
+    ]
+  },
+  "flex-layout.col#descricao":{
+    "children": [
+      "tab-layout#product"
+    ]
+  },
+  
+  "tab-layout#product": {
+    "children": [
+      "tab-list#product",
+      "tab-content#product"
+    ],
+    "props": {
+      "blockClass": "product"
+    }
+  },
+  "tab-list#product": {
+    "children": [
+      "tab-list.item#tab1prod",
+      "tab-list.item#tab2prod"
+      ]
+  },
+  "tab-list.item#tab1prod": {
+    "props": {
+      "tabId": "tab1prod",
+      "label": "DESCRIÇÃO",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tab2prod": {
+    "props": {
+      "tabId": "tab2prod",
+      "label": "ESPECIFICAÇÕES"
+    }
+  },
+
+  "tab-content#product": {
+    "children": [
+      "tab-content.item#tab1prod",
+      "tab-content.item#tab2prod"
+    ]
+  },
+  "tab-content.item#tab1prod": {
+    "children": [
+      "product-description"
+    ],
+    "props": {
+      "tabId": "tab1prod"
+    }
+  },
+  "tab-content.item#tab2prod": {
+    "children": [
+      "product-specifications"
+    ],
+    "props": {
+      "tabId": "tab2prod"
     }
   }
 
