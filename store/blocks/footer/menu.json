@@ -7,7 +7,7 @@
       "menu-item#institucional",
       "menu-item#empresa",
       "menu-item#politica",
-      "menu-item#pagamentosentregas",
+      "menu-item#pagamentos",
       "menu-item#namidia",
       "menu-item#duvidas"
     ]
@@ -57,7 +57,7 @@
       }
     }
   },
-  "menu-item#pagamentosentregas": {
+  "menu-item#pagamentos": {
     "props": {
       "id": "menu-item-pagamentos-entregas",
       "type": "custom",
