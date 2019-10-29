@@ -179,7 +179,7 @@
     },
     "children": [
       "menu-item#shorts",
-      "menu-item#tank-tops",
+      "menu-item#como-utilizar",
       "menu-item#shirts"
     ]
   },
@@ -259,9 +259,9 @@
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#como-utilizar": {
     "props": {
-      "id": "menu-item-tank-tops",
+      "id": "menu-item-como-utilizar",
       "type": "custom",
       "iconId": null,
       "highlight": false,
