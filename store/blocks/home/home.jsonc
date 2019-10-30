@@ -8,6 +8,7 @@
       "flex-layout.row#images",
       "image#midia",
       "tab-layout#home",
+      "flex-layout.row#footer",
       "rich-text",
       "newsletter"
     ]
@@ -193,6 +194,44 @@
     ],
     "props": {
       "tabId": "tab3"
+    }
+  },
+
+  "flex-layout.row#footer": {
+    "children":[
+      "flex-layout.col#microagulhamento",
+      "flex-layout.col#exposis",
+      "flex-layout.col#outros"
+    ]
+  },
+  "flex-layout.col#microagulhamento": {
+    "children":[
+      "shelf#microagulhamento"
+    ]
+  },
+  "flex-layout.col#exposis": {
+    "children":[
+      "shelf#microagulhamento"
+    ]
+  },
+  "flex-layout.col#outros": {
+    "children":[
+      "shelf#microagulhamento"
+    ]
+  },
+  "shelf#microagulhamento": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 1,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Mais Vendidos"
+      }
     }
   }
 
