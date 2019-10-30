@@ -79,39 +79,43 @@
   }
 
   .container--title-section .paragraph{color:#474747;font-size:.9rem;text-transform: uppercase;font-weight: bold;}
-.container--title-section-block p, .container--title-section-block ul, .container--title-section-block li{height:0;opacity: 0;transition: cubic-bezier(0.1, 2.68, 1,-0.23);margin:0;overflow: hidden;}
-.container--title-section-block h3{
-  font-size: 1rem;
-  font-weight: normal;
-  background: #f2f2f2;
-  padding: 0 10px;
-  border-radius: 5px;
-  color: #424242;
-  line-height: 45px;  
-  position: relative;
-  margin: 0 0 12px;
-}
-.container--title-section-block h3:after{
-  content:"";
-  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-arrow___12af2199c2c7e5e9b990bbea144571cd.png) no-repeat center center scroll transparent;
-  width:20px;
-  height: 20px;
-  position:absolute;
-  right: 10px;
-  top: 12px;
-  background-size: 16px;
-}
-.container--title-section-block h3:hover{
-  background: #6aa837;
-  color:#fff;
-}
+  .container--title-section-block p, .container--title-section-block ul, .container--title-section-block li{height:0;opacity: 0;transition: cubic-bezier(0.1, 2.68, 1,-0.23);margin:0;overflow: hidden;}
+  .container--title-section-block h3{
+    font-size: 1rem;
+    font-weight: normal;
+    background: #f2f2f2;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: #424242;
+    line-height: 45px;  
+    position: relative;
+    margin: 0 0 12px;
+  }
+  .container--title-section-block h3:after{
+    content:"";
+    background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-arrow___12af2199c2c7e5e9b990bbea144571cd.png) no-repeat center center scroll transparent;
+    width:20px;
+    height: 20px;
+    position:absolute;
+    right: 10px;
+    top: 12px;
+    background-size: 16px;
+  }
+  .container--title-section-block h3:hover{
+    background: #6aa837;
+    color:#fff;
+  }
 
-.container--title-section-block h3:hover::after{
-  transform: rotate(180deg);
-  filter: invert(1);
-}
+  .container--title-section-block h3:hover::after{
+    transform: rotate(180deg);
+    filter: invert(1);
+  }
 
-.container--title-section-block h3:hover + p, .container--title-section-block h3:hover + ul, .container--title-section-block h3:hover + p + ul{opacity: 1;height: auto;font-size:.8rem;border:1px solid #dedede;border-radius:5px;padding:10px;margin-bottom: 10px;}
+  .container--title-section-block h3:hover + p, .container--title-section-block h3:hover + ul, .container--title-section-block h3:hover + p + ul{opacity: 1;height: auto;font-size:.8rem;border:1px solid #dedede;border-radius:5px;padding:10px;margin-bottom: 10px;}
+  
+  .container--title-section-block > div {
+    width: 100%;
+  }
 
 }
 .paragraph {
