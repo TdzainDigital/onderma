@@ -44,7 +44,7 @@
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
         "maxItems": 10,
-        "itemsPerPage": 2,
+        "itemsPerPage": 4,
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,

@@ -90,10 +90,10 @@
     line-height: 45px;  
     position: relative;
     margin: 0 0 12px;
+    text-align: center;
   }
   .container--title-section-block h3:after{
     content:"";
-    background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-arrow___12af2199c2c7e5e9b990bbea144571cd.png) no-repeat center center scroll transparent;
     width:20px;
     height: 20px;
     position:absolute;
@@ -111,7 +111,16 @@
     filter: invert(1);
   }
 
-  .container--title-section-block h3:hover + p, .container--title-section-block h3:hover + ul, .container--title-section-block h3:hover + p + ul{opacity: 1;height: auto;font-size:.8rem;border:1px solid #dedede;border-radius:5px;padding:10px;margin-bottom: 10px;}
+  .container--title-section-block h3:hover + p, .container--title-section-block h3:hover + ul, .container--title-section-block h3:hover + p + ul {
+    opacity: 1;
+    height: auto;
+    font-size:.8rem;
+    border:1px solid #dedede;
+    border-radius:5px;
+    padding:10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
   
   .container--title-section-block > div {
     width: 100%;

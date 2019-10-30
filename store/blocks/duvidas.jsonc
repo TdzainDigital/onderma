@@ -2,8 +2,27 @@
     "store.custom#questions": {
       "blocks": [
         "flex-layout.row#content-title-intitucional", // titula da pagina
-        "flex-layout.row#content-info-questions-01" // titula da pergunta e resposta
-       
+        "flex-layout.row#content-title-questions-01", // titulo da pergunta
+        "flex-layout.row#content-info-questions-01", // pergunta e resposta
+        "flex-layout.row#content-info-questions-02",
+        "flex-layout.row#content-info-questions-03",
+        "flex-layout.row#content-info-questions-04",
+        "flex-layout.row#content-title-questions-02",
+        "flex-layout.row#content-info-questions-05",
+        "flex-layout.row#content-info-questions-06",
+        "flex-layout.row#content-info-questions-07",
+        "flex-layout.row#content-info-questions-08",
+        "flex-layout.row#content-title-questions-03",
+        "flex-layout.row#content-info-questions-09",
+        "flex-layout.row#content-info-questions-10",
+        "flex-layout.row#content-info-questions-11",
+        "flex-layout.row#content-info-questions-12",
+        "flex-layout.row#content-title-questions-04",
+        "flex-layout.row#content-info-questions-13",
+        "flex-layout.row#content-info-questions-14",
+        "flex-layout.row#content-info-questions-15",
+        "rich-text#newsletter",
+        "newsletter"
       ]
     },
     "flex-layout.row#content-title-intitucional":{
@@ -15,6 +34,18 @@
         "props":{
             "text":"Perguntas Frequentes", // Perguntas frequentes
             "blockClass":"title-default"
+        }
+    },
+
+    ////////////////////////////////////////////////////
+    "flex-layout.row#content-title-questions-01":{
+        "children":[
+            "rich-text#title-question-01" 
+        ]
+    },
+    "rich-text#title-question-01": {
+        "props": {
+            "text" : "// Trocas e devoluções"
         }
     },
     // Question 01
@@ -31,5 +62,262 @@
             "text":"Trocas e devoluções",
             "blockClass":"title-section-block"
         }
+    },
+    // Question 02
+    "flex-layout.row#content-info-questions-02":{
+        "children":[
+            "rich-text#title-section-02" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-02":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 03
+    "flex-layout.row#content-info-questions-03":{
+        "children":[
+            "rich-text#title-section-03" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-03":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 04
+    "flex-layout.row#content-info-questions-04":{
+        "children":[
+            "rich-text#title-section-04" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-04":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+
+    ////////////////////////////////////////////////
+    "flex-layout.row#content-title-questions-02": {
+        "children":[
+            "rich-text#title-question-02" 
+        ]
+    },
+    "rich-text#title-question-02": {
+        "props": {
+            "text" : "// Pagamento"
+        }
+    },
+    // Question 05
+    "flex-layout.row#content-info-questions-05":{
+        "children":[
+            "rich-text#title-section-05" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-05":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 06
+    "flex-layout.row#content-info-questions-06":{
+        "children":[
+            "rich-text#title-section-06" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-06":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 07
+    "flex-layout.row#content-info-questions-07":{
+        "children":[
+            "rich-text#title-section-07" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-07":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 08
+    "flex-layout.row#content-info-questions-08":{
+        "children":[
+            "rich-text#title-section-08" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-08":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+
+    ////////////////////////////////////////////////
+    "flex-layout.row#content-title-questions-03": {
+        "children":[
+            "rich-text#title-question-03" 
+        ]
+    },
+    "rich-text#title-question-03": {
+        "props": {
+            "text" : "// Entrega"
+        }
+    },
+    // Question 09
+    "flex-layout.row#content-info-questions-09":{
+        "children":[
+            "rich-text#title-section-09" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-09":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 10
+    "flex-layout.row#content-info-questions-10":{
+        "children":[
+            "rich-text#title-section-10" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-10":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 11
+    "flex-layout.row#content-info-questions-11":{
+        "children":[
+            "rich-text#title-section-11" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-11":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 12
+    "flex-layout.row#content-info-questions-12":{
+        "children":[
+            "rich-text#title-section-12" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-12":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+
+    ////////////////////////////////////////////////
+    "flex-layout.row#content-title-questions-04": {
+        "children":[
+            "rich-text#title-question-04" 
+        ]
+    },
+    "rich-text#title-question-04": {
+        "props": {
+            "text" : "// Outros assuntos"
+        }
+    },
+    // Question 13
+    "flex-layout.row#content-info-questions-13":{
+        "children":[
+            "rich-text#title-section-13" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-13":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 14
+    "flex-layout.row#content-info-questions-14":{
+        "children":[
+            "rich-text#title-section-14" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-14":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    // Question 15
+    "flex-layout.row#content-info-questions-15":{
+        "children":[
+            "rich-text#title-section-15" // TROCAS E DEVOLUÇÕES
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    "rich-text#title-section-15":{
+        "props":{
+            "text":"Trocas e devoluções",
+            "blockClass":"title-section-block"
+        }
+    },
+    "rich-text#newsletter": {
+      "props": {
+        "textPosition": "CENTER",
+        "text": "NEWSLETTER",
+        "font": "t-heading-5",
+        "blockClass": "tt-newsletter"
+      }
     }
+
+
+
 }    
