@@ -13,14 +13,14 @@
     },
     "rich-text#title-intitucional":{
         "props":{
-            "text":"[PERGUNTAS-FREQUENTES]", // Perguntas frequentes
+            "text":"Perguntas Frequentes", // Perguntas frequentes
             "blockClass":"title-default"
         }
     },
     // Question 01
     "flex-layout.row#content-info-questions-01":{
         "children":[
-            "rich-text#title-section-01" // TROCAS E DEVOLUÇÕES TESTE
+            "rich-text#title-section-01" // TROCAS E DEVOLUÇÕES
         ],
         "props":{
             "blockClass":"section-questions"
@@ -28,7 +28,7 @@
     },
     "rich-text#title-section-01":{
         "props":{
-            "text":"TROCA E DEVOLUÇÃO",
+            "text":"Trocas e devoluções",
             "blockClass":"title-section-block"
         }
     }
