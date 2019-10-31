@@ -13,7 +13,7 @@
       "logo#footer",
       "vtex.menu@2.x:menu#institucional",
       "vtex.menu@2.x:menu#institucionaldois",
-      "vtex.menu@2.x:menu#footer-decoration",
+      "flex-layout.col#seguranca",
       "flex-layout.col#atendimento"
       
     ],
@@ -104,41 +104,23 @@
   },
   "flex-layout.col#atendimento": {
     "children": [
-      "rich-text#atendimento",
-      "rich-text#televendas",
-      "rich-text#footerwpp",
-      "rich-text#email",
-      "footer-spacer",
-      "rich-text#horario"
-    ],
-    "props": {
-    
-    }
+      "rich-text#atendimento"
+    ]
   },
   "rich-text#atendimento":{
     "props":{
      "text": "ATENDIMENTO" 
     }
   },
-  "rich-text#televendas":{
-    "props":{
-      "text": "**TELEVENDAS:** (31) 4062-7062 / 3378-8115" 
-     }
+  "flex-layout.col#seguranca": {
+    "children": [
+      "rich-text#seguranca"
+    ]
   },
-  "rich-text#footerwpp":{
-    "props":{
-      "text": "**WHATSAPP:** (31) 98773 2790" 
-     }
-  },
-  "rich-text#email":{
-    "props":{
-      "text": "**E-MAIL:** contato@onderma.com.br" 
-     }
-  },
-  "rich-text#horario":{
-    "props":{
-      "text": "**HORÁRIO:** Seg. à Sexta 08h00 às 17h30" 
-     }
+  "rich-text#seguranca":{
+    "props": {
+      "text": "SEGURANÇA"
+    }
   }
 
   

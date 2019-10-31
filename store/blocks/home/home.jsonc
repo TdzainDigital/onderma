@@ -206,16 +206,19 @@
   },
   "flex-layout.col#microagulhamento": {
     "children":[
+      "rich-text#title-microagulhamento",
       "shelf#microagulhamento"
     ]
   },
   "flex-layout.col#exposis": {
     "children":[
+      "rich-text#title-exposis",
       "shelf#microagulhamento"
     ]
   },
   "flex-layout.col#outros": {
     "children":[
+      "rich-text#title-outros",
       "shelf#microagulhamento"
     ]
   },
@@ -232,6 +235,24 @@
         "arrows": true,
         "titleText": "Mais Vendidos"
       }
+    }
+  },
+  "rich-text#title-microagulhamento":{
+    "props":{
+      "text": "// MICROAGULHAMENTO",
+      "blockClass": "title-blocks-home"
+    }
+  },
+  "rich-text#title-exposis":{
+    "props":{
+      "text": "// EXPOSIS",
+      "blockClass": "title-blocks-home"
+    }
+  },
+  "rich-text#title-outros":{
+    "props":{
+      "text": "// OUTROS",
+      "blockClass": "title-blocks-home"
     }
   }
 
