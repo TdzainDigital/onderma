@@ -110,13 +110,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones"
+      "menu-item#seguranca"
     ]
   },
 
-  "menu-item#smartphones": {
+  "menu-item#seguranca": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-seguranca",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -142,18 +142,19 @@
     ]
   },
 
+
+
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#institucional-mobile",
+      "menu-item#seguranca-mobile"
     ]
   },
 
-  "menu-item#clothing-mobile": {
+  "menu-item#institucional-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
@@ -163,14 +164,18 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "Segurança",
-        "text": "Segurança"
+        "tagTitle": "INSTITUCIONAL",
+        "text": "INSTITUCIONAL"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#institucional"
+    ]
   },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  "vtex.menu@2.x:submenu.accordion#institucional": {
+    "children": [
+      "vtex.menu@2.x:menu#clothing-accordion"
+    ]
   },
 
   "vtex.menu@2.x:menu#clothing-accordion": {
@@ -178,54 +183,40 @@
       "orientation": "vertical"
     },
     "children": [
+      "menu-item#empresa",
+      "menu-item#politica",
+      "menu-item#pagamentos",
+      "menu-item#namidia",
+      "menu-item#duvidas",
       "menu-item#shorts",
       "menu-item#utilizar",
       "menu-item#faleconosco"
     ]
   },
 
-  "menu-item#decoration-mobile": {
+  "menu-item#seguranca-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "SEGURANÇA",
+        "text": "SEGURANÇA"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#seguranca"]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  "vtex.menu@2.x:submenu.accordion#seguranca": {
+    "children": ["vtex.menu@2.x:menu#footer-seguranca-mobile"]
   },
 
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+  "vtex.menu@2.x:menu#footer-seguranca-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones"
+      
     ]
   },
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
+  
 
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones"
-    ]
-  },
 
   "menu-item#clothing": {
     "props": {
