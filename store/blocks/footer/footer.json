@@ -8,7 +8,8 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop"
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -83,7 +84,16 @@
       "text": "![Payment](https://onderma.vteximg.com.br/arquivos/payment.png)"
     }
   },
-
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "rich-text#adress"
+    ]
+  },
+  "rich-text#adress" :{
+    "props":{
+      "text": "endereço"
+    }
+  },
 
 
 
