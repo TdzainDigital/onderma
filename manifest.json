@@ -1,7 +1,7 @@
 {
   "vendor": "onderma",
   "name": "onderma-theme",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "builders": {
     "styles": "1.x",
     "store": "0.x",
