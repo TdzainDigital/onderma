@@ -8,9 +8,11 @@
  * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
  */
 {
+  /*
   "store.orderplaced": {
     "blocks": ["order-placed"]
   },
+  */
 
   "store.account": {
     "blocks": ["my-account"],
@@ -36,15 +38,17 @@
       "product-summary-add-to-list-button",
       "product-summary-image",
       "product-summary-name",
-      "product-rating-inline",
+      //"product-rating-inline",
       "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
       "product-summary-buy-button"
     ]
-  },
+  }
 
+  /*
   "store.product-review-form": {
     "blocks": ["product-review-form"]
   }
+  */
 }

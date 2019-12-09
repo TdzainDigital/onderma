@@ -5,8 +5,6 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers",
       "flex-layout.row#descricao",
       "rich-text",
       "newsletter"
@@ -62,7 +60,6 @@
     },
     "children": [
       "product-name",
-      "product-rating-summary",
       "product-price#product-details",
       "product-separator",
       "flex-layout.row#buy-button",
