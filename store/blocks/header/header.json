@@ -13,7 +13,6 @@
   },
   "header-layout.desktop": {
     "children": [
-     
       "header-row#3-desktop",
       "header-row#4-desktop",
       "header-row#5-desktop"
