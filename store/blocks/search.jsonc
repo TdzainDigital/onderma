@@ -15,7 +15,9 @@
   },
 
   "store.search#department": {
-    "blocks": ["search-result-layout"]
+    "blocks": [
+      "image#dep",
+      "search-result-layout"]
   },
 
   "store.search#category": {
@@ -38,6 +40,7 @@
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
+      
       "flex-layout.row#result"
     ],
     "props": {
@@ -189,5 +192,10 @@
 
   "gallery": {
     "blocks": ["product-summary.shelf"]
+  },
+  "image#dep": {
+    "props":{
+      "src" : "#"
+    }
   }
 }
