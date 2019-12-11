@@ -57,6 +57,15 @@
   font-weight: 700;
 }
 
+.container--discountText{
+  display: flex;
+  align-self: center;
+}
+
+.container--discountText .paragraph{
+  color: #337320;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

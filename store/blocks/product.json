@@ -61,12 +61,20 @@
     "children": [
       "product-name",
       "product-price#product-details",
+      "rich-text#productDiscount",
       "product-separator",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
       "share#default"
     ]
+  },
+
+  "rich-text#productDiscount":{
+    "props":{
+      "text": "10% de desconto a vista",
+      "blockClass": "productDiscountText"
+    }
   },
  
   "product-description": {

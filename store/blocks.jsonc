@@ -41,9 +41,17 @@
       //"product-rating-inline",
       "product-summary-space",
       "product-summary-price",
+      "rich-text#discountPrice",
       "product-identifier.summary",
       "product-summary-buy-button"
     ]
+  },
+
+  "rich-text#discountPrice":{
+    "props":{
+      "text": "10% de desconto a vista",
+      "blockClass": "discountText"
+    }
   }
 
   /*
