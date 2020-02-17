@@ -13,18 +13,19 @@
     "blocks": ["order-placed"]
   },
   */
-
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": [
+      "my-account"
+    ],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
-
   "store.login": {
-    "blocks": ["login-content#default"]
+    "blocks": [
+      "login-content#default"
+    ]
   },
-
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,
@@ -32,7 +33,6 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-
   "product-summary.shelf": {
     "children": [
       "product-summary-add-to-list-button",
@@ -41,19 +41,23 @@
       //"product-rating-inline",
       "product-summary-space",
       "product-summary-price",
-      "rich-text#discountPrice",
+      "cash-discount-summary",
       "product-identifier.summary",
       "product-summary-buy-button"
     ]
   },
-
-  "rich-text#discountPrice":{
-    "props":{
+  "cash-discount-summary": {
+    "props": {
+      "percentageNumber": 10,
+      "minimumPrice": 0
+    }
+  },
+  "rich-text#discountPrice": {
+    "props": {
       "text": "10% de desconto a vista",
       "blockClass": "discountText"
     }
   }
-
   /*
   "store.product-review-form": {
     "blocks": ["product-review-form"]

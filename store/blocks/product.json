@@ -33,8 +33,8 @@
       "paddingBottom": 7
     },
     "children": [
-      "flex-layout.col#space", 
-      "flex-layout.col#product-image", 
+      "flex-layout.col#space",
+      "flex-layout.col#product-image",
       "flex-layout.col#right-col"
     ]
   },
@@ -61,7 +61,7 @@
     "children": [
       "product-name",
       "product-price#product-details",
-      "rich-text#productDiscount",
+      "cash-discount",
       "product-separator",
       "flex-layout.row#buy-button",
       "availability-subscriber",
@@ -69,20 +69,23 @@
       "share#default"
     ]
   },
-
-  "rich-text#productDiscount":{
-    "props":{
+  "cash-discount": {
+    "props": {
+      "percentageNumber": 10,
+      "minimumPrice": 0
+    }
+  },
+  "rich-text#productDiscount": {
+    "props": {
       "text": "10% de desconto a vista",
       "blockClass": "productDiscountText"
     }
   },
- 
   "product-description": {
     "props": {
       "collapseContent": true
     }
   },
-  
   "product-price#product-details": {
     "props": {
       "showInstallments": true,
@@ -93,7 +96,6 @@
       "showLabels": true
     }
   },
-
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
@@ -104,7 +106,7 @@
       "flex-layout.col#desc"
     ]
   },
-  "flex-layout.col#button":{
+  "flex-layout.col#button": {
     "children": [
       "product-quantity",
       "product-identifier.product",
@@ -148,14 +150,12 @@
     "props": {
       "width": "15%"
     },
-    "children": [
-
-    ]
+    "children": []
   },
-  "newsletter":{
-    "props":{
+  "newsletter": {
+    "props": {
       "confirmationText": "true",
-      "label" :"CADASTRE-SE E RECEBA EM SEU E-MAIL, NOVIDADES, PROMOÇÕES E OFERTAS DA LOJA"
+      "label": "CADASTRE-SE E RECEBA EM SEU E-MAIL, NOVIDADES, PROMOÇÕES E OFERTAS DA LOJA"
     }
   },
   "rich-text": {
@@ -166,17 +166,16 @@
       "blockClass": "tt-newsletter"
     }
   },
-  "flex-layout.row#descricao" :{
+  "flex-layout.row#descricao": {
     "children": [
       "flex-layout.col#descricao"
     ]
   },
-  "flex-layout.col#descricao":{
+  "flex-layout.col#descricao": {
     "children": [
       "tab-layout#product"
     ]
   },
-  
   "tab-layout#product": {
     "children": [
       "tab-list#product",
@@ -190,7 +189,7 @@
     "children": [
       "tab-list.item#tab1prod",
       "tab-list.item#tab2prod"
-      ]
+    ]
   },
   "tab-list.item#tab1prod": {
     "props": {
@@ -205,7 +204,6 @@
       "label": "ESPECIFICAÇÕES"
     }
   },
-
   "tab-content#product": {
     "children": [
       "tab-content.item#tab1prod",
@@ -228,6 +226,4 @@
       "tabId": "tab2prod"
     }
   }
-
-
 }

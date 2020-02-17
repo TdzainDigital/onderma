@@ -13,7 +13,6 @@
       "newsletter"
     ]
   },
-
   "carousel#home": {
     "props": {
       "autoplay": false,
@@ -39,7 +38,9 @@
     }
   },
   "shelf#home": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
@@ -53,7 +54,6 @@
       }
     }
   },
-
   "product-summary#home": {
     "props": {
       "isOneClickBuy": false,
@@ -86,7 +86,6 @@
       "flex-layout.col#images2"
     ]
   },
-
   "flex-layout.col#images1": {
     "children": [
       "image#mask"
@@ -110,13 +109,13 @@
   "image#midia": {
     "props": {
       "src": "https://onderma.vteximg.com.br/arquivos/banner_na_midia.jpg",
-      "blockClass":"banner-midia"
+      "blockClass": "banner-midia"
     }
   },
-  "newsletter":{
-    "props":{
+  "newsletter": {
+    "props": {
       "confirmationText": "true",
-      "label" :"CADASTRE-SE E RECEBA EM SEU E-MAIL, NOVIDADES, PROMOÇÕES E OFERTAS DA LOJA"
+      "label": "CADASTRE-SE E RECEBA EM SEU E-MAIL, NOVIDADES, PROMOÇÕES E OFERTAS DA LOJA"
     }
   },
   "rich-text": {
@@ -127,9 +126,6 @@
       "blockClass": "tt-newsletter"
     }
   },
-  
-
-  
   "tab-layout#home": {
     "children": [
       "tab-list#home",
@@ -144,7 +140,7 @@
       "tab-list.item#tab1",
       "tab-list.item#tab2",
       "tab-list.item#tab3"
-      ]
+    ]
   },
   "tab-list.item#tab1": {
     "props": {
@@ -196,34 +192,35 @@
       "tabId": "tab3"
     }
   },
-
   "flex-layout.row#footer": {
-    "children":[
+    "children": [
       "flex-layout.col#microagulhamento",
       "flex-layout.col#exposis",
       "flex-layout.col#outros"
     ]
   },
   "flex-layout.col#microagulhamento": {
-    "children":[
+    "children": [
       "rich-text#title-microagulhamento",
       "shelf#microagulhamento"
     ]
   },
   "flex-layout.col#exposis": {
-    "children":[
+    "children": [
       "rich-text#title-exposis",
       "shelf#microagulhamento"
     ]
   },
   "flex-layout.col#outros": {
-    "children":[
+    "children": [
       "rich-text#title-outros",
       "shelf#microagulhamento"
     ]
   },
   "shelf#microagulhamento": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
@@ -237,23 +234,22 @@
       }
     }
   },
-  "rich-text#title-microagulhamento":{
-    "props":{
+  "rich-text#title-microagulhamento": {
+    "props": {
       "text": "// MICROAGULHAMENTO",
       "blockClass": "title-blocks-home"
     }
   },
-  "rich-text#title-exposis":{
-    "props":{
+  "rich-text#title-exposis": {
+    "props": {
       "text": "// EXPOSIS",
       "blockClass": "title-blocks-home"
     }
   },
-  "rich-text#title-outros":{
-    "props":{
+  "rich-text#title-outros": {
+    "props": {
       "text": "// OUTROS",
       "blockClass": "title-blocks-home"
     }
   }
-
 }
