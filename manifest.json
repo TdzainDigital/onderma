@@ -1,7 +1,7 @@
 {
   "vendor": "onderma",
   "name": "onderma-theme",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "builders": {
     "styles": "1.x",
     "store": "0.x",
@@ -40,7 +40,7 @@
     "vtex.category-menu": "2.x",
     "vtex.tab-layout": "0.x",
     "vtex.cash-discount": "0.x",
-    "vtex.orderplaced":"1.x"
+    "vtex.orderplaced": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
