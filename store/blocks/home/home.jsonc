@@ -54,6 +54,57 @@
       }
     }
   },
+  "shelf#maquiagem-capilar": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Mais Vendidos"
+      }
+    }
+  },
+  "shelf#calvice": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Mais Vendidos"
+      }
+    }
+  },
+  "shelf#linha-medica": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Mais Vendidos"
+      }
+    }
+  },
   "product-summary#home": {
     "props": {
       "isOneClickBuy": false,
@@ -170,7 +221,7 @@
   },
   "tab-content.item#tab1": {
     "children": [
-      "shelf#home"
+      "shelf#maquiagem-capilar"
     ],
     "props": {
       "tabId": "tab1"
@@ -178,7 +229,7 @@
   },
   "tab-content.item#tab2": {
     "children": [
-      "shelf#home"
+      "shelf#calvice"
     ],
     "props": {
       "tabId": "tab2"
@@ -186,7 +237,7 @@
   },
   "tab-content.item#tab3": {
     "children": [
-      "shelf#home"
+      "shelf#linha-medica"
     ],
     "props": {
       "tabId": "tab3"
