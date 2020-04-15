@@ -39,7 +39,8 @@
     "vtex.product-customizer": "2.x",
     "vtex.category-menu": "2.x",
     "vtex.tab-layout": "0.x",
-    "vtex.cash-discount": "0.x"
+    "vtex.cash-discount": "0.x",
+    "vtex.orderplaced":"1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

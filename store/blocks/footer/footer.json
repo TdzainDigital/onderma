@@ -81,7 +81,7 @@
   },
   "rich-text#payment": {
     "props":{
-      "text": "![Payment](https://onderma.vteximg.com.br/arquivos/payment.png)"
+      "text": "![Payment](https://onderma.vteximg.com.br/arquivos/payment_2.png)"
     }
   },
   "flex-layout.row#footer-3-desktop": {
