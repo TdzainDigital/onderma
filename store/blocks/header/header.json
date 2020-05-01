@@ -131,8 +131,23 @@
   },
   "drawer": {
     "children": [
-      "category-menu"
+      "menu#drawer"
     ]
+  },
+  
+  "menu#drawer": {
+    "children": [
+      "menu-item#inicial",
+      "menu-item#mascara-facial",
+      "menu-item#maquiagem-capilar",
+      "menu-item#hairmax",
+      "menu-item#igrow",
+      "menu-item#microcanulas",
+      "menu-item#vibration"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
   },
  
   "logo#mobile": {
@@ -146,6 +161,111 @@
   "rich-text#top": {
     "props": {
       "text": "WhatsApp"
+    }
+  },
+  "menu-item#mascara-facial": {
+    "props": {
+      "id": "menu-item-mascara-facial",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascara-facial",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "MASCARA FACIAL"
+      }
+    }
+  },
+  "menu-item#inicial": {
+    "props": {
+      "id": "menu-item-inicial",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.onderma.com.br",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "HOME"
+      }
+    }
+  },
+  "menu-item#maquiagem-capilar": {
+    "props": {
+      "id": "menu-item-maquiagem-capilar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquiagem-capilar",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "MAQUIAGEM CAPILAR"
+      }
+    }
+  },
+  "menu-item#hairmax": {
+    "props": {
+      "id": "menu-item-hairmax",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hairmax",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "HAIRMAX"
+      }
+    }
+  },
+  "menu-item#igrow": {
+    "props": {
+      "id": "menu-item-igrow",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/igrow",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "IGROW"
+      }
+    }
+  },
+  "menu-item#microcanulas": {
+    "props": {
+      "id": "menu-item-microcanulas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microcanulas",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "MICROCANULAS"
+      }
+    }
+  },
+  "menu-item#vibration": {
+    "props": {
+      "id": "menu-item-vibration",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vibration",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "VIBRATION"
+      }
     }
   }
 
