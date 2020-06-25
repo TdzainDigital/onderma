@@ -6,3 +6,9 @@
     text-transform: uppercase;
     font-size: 10px;
 }
+.itemContainer--category {
+    margin-top: -10px;
+}
+.firstLevelLink {
+    margin: 10px;
+}

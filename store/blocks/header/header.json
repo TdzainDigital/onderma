@@ -36,7 +36,6 @@
       "header-spacer",
       "header-spacer",
       "search-bar",
-      "locale-switcher",
       "rich-text#wpp",
       "rich-text#img",
       "login",
@@ -52,7 +51,8 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "WhatsApp <br> (31) 98773-2790",
-      "font": "t-heading-7"
+      "font": "t-heading-7",
+      "blockClass": "link-wpp"
     }
   },
   "rich-text#img": {

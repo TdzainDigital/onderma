@@ -3,7 +3,6 @@
     "blocks": [
       "carousel#home",
       "image#home",
-      "rich-text#titulo",
       "shelf#home",
       "flex-layout.row#images",
       "image#midia",
@@ -31,12 +30,6 @@
       "showDots": true
     }
   },
-  "rich-text#titulo": {
-    "props": {
-      "text": "PRODUTOS EM DESTAQUE",
-      "blockClass": "title-shelfhome"
-    }
-  },
   "shelf#home": {
     "blocks": [
       "product-summary.shelf"
@@ -50,7 +43,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Mais Vendidos"
+        "titleText": ""
       }
     }
   },
@@ -67,7 +60,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Mais Vendidos"
+        "titleText": ""
       }
     }
   },
@@ -84,7 +77,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Mais Vendidos"
+        "titleText": ""
       }
     }
   },
@@ -101,7 +94,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Mais Vendidos"
+        "titleText": ""
       }
     }
   },
@@ -149,12 +142,14 @@
   },
   "image#mask": {
     "props": {
-      "src": "https://onderma.vteximg.com.br/arquivos/BannerVitrineOnderma_Iphoton.jpg"
+      "src": "https://onderma.vteximg.com.br/arquivos/BannerVitrineOnderma_Iphoton.jpg",
+      "link":"https://www.onderma.com.br/iphoton"
     }
   },
   "image#lasercom": {
     "props": {
-      "src": "https://onderma.vteximg.com.br/arquivos/BannerVitrineOnderma_Lasercomb.jpg"
+      "src": "https://onderma.vteximg.com.br/arquivos/BannerVitrineOnderma_Lasercomb.jpg",
+      "link":"https://www.onderma.com.br/hairmax"
     }
   },
   "image#midia": {
@@ -166,7 +161,7 @@
   "newsletter": {
     "props": {
       "confirmationText": "true",
-      "label": "CADASTRE-SE E RECEBA EM SEU E-MAIL, NOVIDADES, PROMOÇÕES E OFERTAS DA LOJA"
+      "label": "CADASTRE-SE E RECEBA EM SEU E-MAIL, NOVIDADES E PROMOÇÕES"
     }
   },
   "rich-text": {
@@ -281,7 +276,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Mais Vendidos"
+        "titleText": ""
       }
     }
   },

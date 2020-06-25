@@ -101,6 +101,7 @@
   .searchBarIcon {
     position: absolute;
     margin-left: -40px;
+    margin-top: 15px;
   }
   .image {
     width: 80%!important;

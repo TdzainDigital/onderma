@@ -162,3 +162,7 @@
 .container--tt-newsletter p {
   border-bottom: 1px solid #337320;
 }
+.link--link-wpp {
+  text-decoration: none;
+  color: #3b5e07;
+}
