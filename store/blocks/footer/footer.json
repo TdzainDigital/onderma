@@ -30,11 +30,15 @@
 
   "social-networks": {
     "props": {
-      "title": "CONECTE-SE CONOSCO",
+      "title": "",
       "socialNetworks": [
         {
           "name": "Facebook",
           "url": "https://pt-br.facebook.com/ondermabr/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/onderma/"
         }
       ]
     }
