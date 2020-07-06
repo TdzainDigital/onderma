@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-3-desktop",
+      "flex-layout.row#footer-4-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -98,6 +99,19 @@
       "text": "*Copyright ® - Todos os direitos reservados. <br> ACCR Comercio de Cosméticos Ltda | CNPJ: 09.570.371/0001-83 | Rua Alessandra Salum Cadar, nº 415, salas 304 e 305. Belo Horizonte - MG. CEP 30575-190 <br> Onderma é distribuidora autorizada dos produtos Hairmax e iGrow no Brasil. Em caso de duvidas consulte os fabricantes: www.hairmax.com ou www.igrowlaser.com. Existem sites que se dizem distribuidores autorizados, mas não são. Todas as imagens utilizadas são meramente ilustrativas.*"
     }
   },
+  "flex-layout.row#footer-4-desktop": {
+    "children": [
+      "image#tdzain"
+    ]
+  },
+  "image#tdzain": {
+    "props": {
+      "src": "https://onderma.vtexassets.com/arquivos/Logo_2019_horizontal.png",
+      "link":"https://www.tdzain.com.br",
+      "maxWidth": 300,
+      "blockClass": "logo-tdzain"
+    }
+  },
 
 
 
@@ -119,7 +133,8 @@
       "paddingBottom": 4
     },
     "children": [
-      "vtex.menu@2.x:menu#footer-mobile"
+      "vtex.menu@2.x:menu#footer-mobile",
+      "image#tdzain"
     ]
   },
   "flex-layout.col#atendimento": {
@@ -144,7 +159,7 @@
   },
   "rich-text#icons-social": {
     "props":{
-      "text" : "Fdsfd"
+      "text" : ""
     }
   }
 

@@ -115,6 +115,13 @@
   .specificationsTablePropertyHeading, .specificationsTableSpecificationHeading  {
     display: none;  
   }
+
+}
+@media only screen and (max-width: 640px) {
+  .imageElementLink--logo-tdzain {
+    text-align: center!important;
+    width: 150px!important;
+  }
 }
 
 /* CSS NOVO */
@@ -131,4 +138,17 @@
 }
 .productBrand {
   color: #307420;
+}
+.imageElementLink--logo-tdzain {
+  text-align: right;
+}
+.shippingTableLabel {
+  color: #979899;
+}
+
+.shippingContainer :global(.pointer) {
+  color: #3b5e07;
+}
+.shippingContainer :global(.pointer):hover {
+  color: #3b5e07;
 }

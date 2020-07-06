@@ -264,7 +264,7 @@
     ]
   },
   "shelf#microagulhamento": {
-    "blocks": [
+    "blocks": [ 
       "product-summary.shelf"
     ],
     "props": {

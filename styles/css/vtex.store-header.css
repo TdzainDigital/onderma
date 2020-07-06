@@ -25,3 +25,7 @@
 .headerRow--main-header :global(.vtex-store-header-2-x-headerRowContainer){
   height: 80px;
 }
+
+.headerStickyRow :global(.center){
+  color: #000
+}
